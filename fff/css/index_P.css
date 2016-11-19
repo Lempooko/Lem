@@ -1,0 +1,134 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+
+#wrapper {
+margin: 0 auto;
+outline: 1 px solid #cccccc;
+margin: 0 auto;
+}
+
+#header {
+width: 100%;
+background-color:#ffffff;
+height: 80px;
+}
+
+#content {
+width: 100%;
+background-color: #444444;
+margin: 0 auto;
+height: 44px;
+}
+
+#footer {
+width: 100%;
+background-color: #AAFFED;
+margin: 0 auto;
+height: 400px;
+}
+.menuleft,.menuright {
+	display:inline-block;
+	vertical-align: middle;
+	height: 80px;
+
+}
+
+.menuleft {
+	width: 70%;
+	height: 80px;
+}
+
+.menuright {
+	width: 30%;	
+	height: 80px;
+}
+
+.navitem {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.menuleft:before{
+content: "";
+display:inline-block;
+vertical-align: middle;
+height: 100%;
+}
+
+.menuright:before{
+content: "";
+display:inline-block;
+vertical-align: middle;
+height: 100%;
+}
+
+#logo {
+	margin-left:30px;
+}
+.menuleft > a {
+margin: 0 30px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #888888;
+}
+
+.menuright > a {
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #888888;
+}
+
+.icone {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-right:10px;
+	
+}
+.name {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-right:5px;
+}
+
+.fariants {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-right:26px;
+	
+}
+
+.mail {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-right:42px;
+	
+}
+
+.start {
+	display:inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-right:45px;
+	height: 200px;
+    border: 2px solid #000;
+    background: url(images/mybg.png) 120% 120% no-repeat;
+}
+
+
